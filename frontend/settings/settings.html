@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ayarlar</title>
+    <link rel="stylesheet" href="settings_style.css">
+</head>
+<body>
+    <div class="settings-container">
+        <h2>Hesap Ayarları</h2>
+        <form action="/update_settings" method="POST">
+            <label for="theme">Tema:</label>
+            <select id="theme" name="theme">
+                <option value="light">Aydınlık</option>
+                <option value="dark">Karanlık</option>
+            </select>
+
+            <label for="message_pref">Kimler mesaj gönderebilir:</label>
+            <select id="message_pref" name="message_pref">
+                <option value="everyone">Herkes</option>
+                <option value="followers">Sadece takip ettiklerim</option>
+                <option value="noone">Kimse</option>
+            </select>
+
+            <label for="password">Yeni Şifre:</label>
+            <input type="password" id="password" name="password" placeholder="Yeni şifrenizi girin">
+
+            <label for="confirm_password">Şifreyi Onayla:</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Şifreyi tekrar girin">
+
+            <label for="deactivate">Hesabı kapat:</label>
+            <input type="checkbox" id="deactivate" name="deactivate"> Hesabımı kapatmak istiyorum
+
+            <button type="submit">Kaydet</button>
+        </form>
+    </div>
+</body>
+</html>
