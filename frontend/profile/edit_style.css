@@ -1,1 +1,22 @@
-/* Edit Profile CSS content */
+.edit-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005fa3;
+}

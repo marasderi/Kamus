@@ -1,1 +1,22 @@
-<!-- Edit Profile HTML content -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Profili Düzenle - Kamus</title>
+    <link rel="stylesheet" href="edit_style.css">
+</head>
+<body>
+    <div class="edit-container">
+        <h2>Profili Düzenle</h2>
+        <form action="/update_profile" method="POST">
+            <input type="text" name="email" placeholder="E-posta">
+            <input type="text" name="city" placeholder="Şehir">
+            <input type="text" name="job" placeholder="Meslek">
+            <input type="text" name="interests" placeholder="İlgi Alanları">
+            <input type="text" name="social" placeholder="Sosyal Medya Linki">
+            <textarea name="bio" placeholder="Biyografi"></textarea>
+            <button type="submit">Kaydet</button>
+        </form>
+    </div>
+</body>
+</html>

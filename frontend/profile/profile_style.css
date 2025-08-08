@@ -1,1 +1,23 @@
-/* Profile CSS content */
+.profile-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0077cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
