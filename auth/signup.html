@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt Ol - Kamus</title>
+    <link rel="stylesheet" href="signup_style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Kayıt Ol</h2>
+        <form action="/signup" method="POST">
+            <input type="text" name="username" placeholder="Kullanıcı Adı" required>
+            <input type="email" name="email" placeholder="E-posta" required>
+            <input type="password" name="password" placeholder="Şifre" required>
+            <button type="submit">Kayıt Ol</button>
+        </form>
+        <p>Zaten hesabın var mı? <a href="../signin/signin.html">Giriş Yap</a></p>
+    </div>
+</body>
+</html>
